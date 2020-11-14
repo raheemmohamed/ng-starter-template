@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo
 
-[click here](https://raheemmohamed.github.io/ng-starter-template/)
+[Click here](https://raheemmohamed.github.io/ng-starter-template/)
 
 ## NX Extensible Dev Tools for Monorepos
 
