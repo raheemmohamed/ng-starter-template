@@ -1,0 +1,17 @@
+<h5>Featue module 1</h5>
+
+<ng-container *ngIf="preload; else displayContent">
+  <app-cards></app-cards>
+</ng-container>
+<ng-template #displayContent>
+  <ngx-all-in-one-alerts
+    [showModal]="showMessage"
+    [msgConfig]="alertConfiguration"
+  ></ngx-all-in-one-alerts>
+
+  <app-default-table
+    [values]="mockSearchData ? mockSearchData : mockDataForTable"
+    [cols]="columns"
+    (searchText)="filterData($event.target.value)"
+  ></app-default-table>
+</ng-template>

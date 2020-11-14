@@ -1,0 +1,38 @@
+.side-navigation-menu {
+  list-style: none;
+  li a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+    &:hover {
+      background-color: #114f8f;
+      transition: background-color 0.2s;
+    }
+  }
+}
+
+.main-menu-collapse {
+  left: 14px;
+}
+.menu-content {
+  width: 200px;
+  display: block;
+  position: absolute;
+
+  left: -9em;
+  transition: left 0.3s;
+}
+
+.display {
+  width: 200px;
+  left: 3em;
+  transition: left 0.3s;
+}
+
+.is-active {
+  background-color: #114f8f;
+}

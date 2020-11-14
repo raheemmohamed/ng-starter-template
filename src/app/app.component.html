@@ -1,0 +1,21 @@
+<div class="w-100 h-100">
+  <div class="main-header">
+    <app-header></app-header>
+  </div>
+  <div class="main-body d-flex w-100 h-100 min-vh-100">
+      <div class="main-sidebar " [ngClass]="toggle ? 'active': ''">
+        <div class="h-100">
+          <app-side-navigation (sideNavChangeStatus)="activeSideNav($event)"></app-side-navigation>
+        </div>
+      </div>
+      <div class="main-content-body p-3 w-100">
+        <main>
+          <router-outlet></router-outlet>
+        </main>
+      </div>
+  </div>
+
+  <!-- <div class="main-footer">
+    <app-footer></app-footer>
+  </div> -->
+</div>
