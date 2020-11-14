@@ -2,9 +2,32 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
+## Demo
+
+[click here](https://raheemmohamed.github.io/ng-starter-template/)
+
 ## NX Extensible Dev Tools for Monorepos
 
 [NX dev tool](https://nx.dev/angular)
+
+## Reference for publish to git page
+
+Publish your angular app to git page via following below instructions
+
+`ng build --prod --base-href "https://GithubUserName.github.io/GithubRepoName/"`
+
+### Deploy to gh-pages:
+
+After building the App, you can now deploy it to Github Pages using the angular-cli-ghpages tool.
+
+Run the command below in your terminal to deploy the App:
+`npx angular-cli-ghpages -dir=dist/Project-name`
+
+[More details about deployment](https://medium.com/tech-insights/how-to-deploy-angular-apps-to-github-pages-gh-pages-896c4e10f9b4)
+
+### URL is like this
+
+`https://GithubUserName.github.io/GithubRepoName/`
 
 ## Development server
 

@@ -47,7 +47,7 @@
                 },
                   {
                   "replace": "src/app/shared/api-end-points.ts",
-                  "with": "src/app/shared/api-end-points.prod"
+                  "with": "src/app/shared/api-end-points.prod.ts"
                 }
               ],
               "optimization": true,
